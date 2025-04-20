@@ -1,0 +1,60 @@
+Usage
+1. Clone or Download the Repository:
+To get started, first clone or download the tool from GitHub:
+
+bash
+Copy
+Edit
+git clone https://github.com/Lt-Spl4sh/Grim-Reapers.git
+2. Navigate to the Tool's Directory:
+Once you've downloaded or cloned the repository, navigate into the Grim-Reapers folder:
+
+bash
+Copy
+Edit
+cd Grim-Reapers
+3. Install Dependencies:
+Make sure you have Python 3.x installed on your system, then install the necessary dependencies using pip:
+
+bash
+Copy
+Edit
+pip install -r requirements.txt
+4. Running the Tool:
+To run the tool, use the following command:
+
+bash
+Copy
+Edit
+python tool.py
+This will start the Grim Reapers multi-tool and display the main menu.
+
+5. Main Menu Options:
+When the tool starts, you'll be presented with the following menu:
+
+markdown
+Copy
+Edit
+1. IP Lookup
+2. Subdomain Finder
+3. Port Scanner
+4. Phishing Page (WIP)
+5. Vulnerability Scanner
+99. Brute-Force Login
+00. Exit
+6. Using Each Option:
+IP Lookup: Enter an IP address or domain to get geolocation and other details.
+
+Subdomain Finder: Enter a domain name to find common subdomains.
+
+Port Scanner: Enter an IP address to check open ports.
+
+Phishing Page: A placeholder for phishing simulation (work in progress).
+
+Vulnerability Scanner: Enter a URL to check for common vulnerabilities like SQL injection.
+
+Brute-Force Login: Choose a wordlist file (in .txt format) from the tool’s directory and attempt a brute-force login to a provided URL.
+
+7. Exit the Tool:
+To exit the tool, simply select option 00 from the menu.
+
