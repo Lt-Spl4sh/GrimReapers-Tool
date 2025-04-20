@@ -26,7 +26,7 @@ To run the tool, use the following command:
 bash
 Copy
 Edit
-python tool.py
+python GrimReapers.py
 This will start the Grim Reapers multi-tool and display the main menu.
 
 5. Main Menu Options:
